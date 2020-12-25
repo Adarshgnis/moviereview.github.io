@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/info.css"/>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <!---js-link----->
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--navigation-------------->
+    <nav>
+      <!--logo--------------->
+      <a href="home.html" class="logo">
+          <img src="images/popcorn.png"/>
+      </a>
+      <!-----menu--btn----------->
+      <input type="checkbox" class="menu-btn" id="menu-btn"/>
+      <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+      </label>
+      <!--menu-------------->
+      <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#cast">Cast</a></li>
+          <li><a href="#storyline">Storyline</a></li>
+          <li><a href="#trailer-area">Trailer</a></li>
+      </ul>
+      <!--search------------->
+      <div class="search">
+          <input type="text" placeholder="Find Your Favourtie Movies"/>
+          <!--search-icon----------->
+          <i class="fas fa-search"></i>
+      </div>
+  </nav>  
+  
+  <!-------Movie-info----------->
+  <section id="banner" class="clearfix">
+    <div id="banner_content_wrapper">
+      <div id="poster">
+        <img
+          class="featured_image"
+          src="https://m.media-amazon.com/images/I/51O2ySDwX8L.jpg"
+          alt="Breaking Bad poster"
+        />
+        <a href="#trailer-area">
+        <img
+          src="https://www.pinpng.com/pngs/m/47-472328_play-button-svg-png-icon-free-download-download.png"
+          alt="play tailer"
+          class="playbutton"
+        />
+        </a>
+      </div>
+      <br>
+      <br>
+      <div class="content">
+        <h2 class="title">Breaking Bad</h2>
+        <div class="ratings">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star inactive"></i>
+        </div>
+        <p class="discription">
+          A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.
+        </p>
+        <p class="info">
+          English <span>|</span>62 Episodes<span>|</span>Crime, Drama, Thriller<span>|</span>TV Series (2008–2013)
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!------Cast---------->
+  <section id="cast">
+    <h2 class="cast-heading">Cast</h2>
+    <!----slider-------->
+    <ul id="autoWidth" class="cs-hidden">
+        <!---slide-box-1-------->
+        <li class="item-a">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTA2NjEyMTY4MTVeQTJeQWpwZ15BbWU3MDQ5NDAzNDc@._V1_UX214_CR0,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Bryan Cranston</strong>
+                    <p>Walter White</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-2-------->
+        <li class="item-b">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTU0NTk3MDQ3OV5BMl5BanBnXkFtZTcwNDY3NzQ4Mg@@._V1_UY317_CR4,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Anna Gunn</strong>
+                    <p>Skyler White</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-3-------->
+        <li class="item-c">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTY1OTY5NjI5NV5BMl5BanBnXkFtZTcwODA4MjM0OA@@._V1_UX214_CR0,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Aaron Paul</strong>
+                    <p>Jesse Pinkman</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-4-------->
+        <li class="item-d">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTU2OTQ3MzcxMV5BMl5BanBnXkFtZTcwMTk2MTk3Mw@@._V1_UX214_CR0,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Betsy Brandt</strong>
+                    <p>Marie Schrader</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-5-------->
+        <li class="item-e">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTgxNDc1OTEwN15BMl5BanBnXkFtZTcwOTQyMTIwOQ@@._V1_UY317_CR1,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>RJ Mitte</strong>
+                    <p>Walter White, Jr.</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-6-------->
+        <li class="item-f">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTUzOTQ2NDIzOF5BMl5BanBnXkFtZTcwMTE0OTYwOQ@@._V1_UX214_CR0,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Dean Norris</strong>
+                    <p>Hank Schrader</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-7-------->
+        <li class="item-g">
+            <div class="cast-box">
+                <a href="#">
+                <!-----img------>
+                <div class="cast-b-img">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOWM5MDJjYTItMTRkNC00NTQ4LThkNjUtNDY3Mzk0YWMwMTBhXkEyXkFqcGdeQXVyNzQzNDYwMA@@._V1_UY317_CR18,0,214,317_AL__QL50.jpg">
+                </div>
+                <!-----text----->
+                <div class="cast-b-text">
+                    <strong>Bob Odenkirk</strong>
+                    <p>Saul Goodman</p>
+                </div>
+                </a>
+            </div>
+        </li>
+        <!---slide-box-8-------->
+        <li class="item-h">
+          <div class="cast-box">
+              <a href="#">
+              <!-----img------>
+              <div class="cast-b-img">
+                  <img src="https://m.media-amazon.com/images/M/MV5BZmRlYjBkNzctZjg5MC00MGQyLTg4MmQtMmIzMzYwMWYxYTMzXkEyXkFqcGdeQXVyNzU1MzA1Ng@@._V1_UX214_CR0,0,214,317_AL__QL50.jpg">
+              </div>
+              <!-----text----->
+              <div class="cast-b-text">
+                  <strong>Steven Michael</strong>
+                  <p>Steven Gomez</p>
+              </div>
+              </a>
+          </div>
+      </li>
+      <!---slide-box-9-------->
+      <li class="item-i">
+        <div class="cast-box">
+            <a href="#">
+            <!-----img------>
+            <div class="cast-b-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjI3MTE0OTI0MF5BMl5BanBnXkFtZTcwMzc2MzU3NQ@@._V1_UY317_CR11,0,214,317_AL__QL50.jpg">
+            </div>
+            <!-----text----->
+            <div class="cast-b-text">
+                <strong>Jonathan Banks</strong>
+                <p>Mike</p>
+            </div>
+            </a>
+        </div>
+    </li>
+    <!---slide-box-10-------->
+    <li class="item-j">
+      <div class="cast-box">
+          <a href="#">
+          <!-----img------>
+          <div class="cast-b-img">
+              <img src="https://m.media-amazon.com/images/M/MV5BMjEyODM1NjI0OF5BMl5BanBnXkFtZTcwMTE0OTA1Mg@@._V1_UY317_CR4,0,214,317_AL__QL50.jpg">
+          </div>
+          <!-----text----->
+          <div class="cast-b-text">
+              <strong>Giancarlo</strong>
+              <p>Gus Fring</p>
+          </div>
+          </a>
+      </div>
+  </li>
+        
+      </ul>
+</section>
+
+<!--Contact-btn------------------>
+<section id="storyline">
+  <!--heading-------------->
+  <h1 class="storyline-heading">Storyline</h1>
+  <p class="storyline-p">When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico. Determined to ensure that his family will have a secure future, Walt embarks on a career of drugs and crime. He proves to be remarkably proficient in this new world as he begins manufacturing and selling methamphetamine with one of his former students. The series tracks the impacts of a fatal diagnosis on a regular, hard working man, and explores how a fatal diagnosis affects his morality and transforms him into a major player of the drug trade. Written by WellardRockard, jackenyon.</p>
+  </section>
+
+  <!-------Movie-Trailer----------->
+  <section id="trailer-area">
+    <div class="trailer-box">
+      <div class="trailer">
+        <iframe src="https://www.youtube.com/embed/HhesaQXLuRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-----footer---------->
+  <footer>
+    <p>AAP</p>
+    <p>Bye!!!</p>
+  </footer>
+
+  <!----slider-script--------->
+  <script>
+    $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+    autoWidth:true,
+    loop:true,
+    onSliderLoad: function() {
+        $('#autoWidth').removeClass('cS-hidden');
+            } 
+        });  
+     });
+</script>
+</body>
+</html>

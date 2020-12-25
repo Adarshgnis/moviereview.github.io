@@ -1,0 +1,594 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie reviews</title>
+<link rel="stylesheet" href="css/home.css"/>
+<link rel="stylesheet" href="css/lightslider.css"/>
+<!---js-link----->
+<script src="js/JQuery3.3.1.js"></script>
+<script src="js/lightslider.js"></script>
+<!--icon---->
+<link rel="shortcut icon" href="images/icon.png"/>
+<!--using FontAwesome--------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/popcorn.png"/>
+        </a>
+        <!-----menu--btn----------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#latest">Movies</a></li>
+            <li><a href="#tvshows">TV Shows</a></li>
+            <li><a href="#anime">Anime</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+
+        </div>
+    </nav>
+    <section id="main">
+        <!--showcase---------->
+        <!--heading---------->
+        <h1 class="showcase-heading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <!------box-1------->
+            <li class="item-a">
+                <!--showcase-box---------->
+                <div class="showcase-box">
+                <a href="info.html">
+                    <img src="https://i.ytimg.com/vi/ceqOTZnhgY8/maxresdefault.jpg">
+                </a>
+                </div>
+            </li>
+             <!------box-2------->
+             <li class="item-b">
+                <!--showcase-box---------->
+                <div class="showcase-box">
+                <a href="404.html">
+                    <img src="https://virtualhorcrux.files.wordpress.com/2018/12/Death-Note-1.jpg">
+                </a>
+                </div>
+            </li>
+             <!------box-3------->
+             <li class="item-c">
+                <!--showcase-box---------->
+                <div class="showcase-box">
+                <a href="#">
+                    <img src="https://play-images-prod-cms.tech.tvnz.co.nz/api/v1/web/image/content/dam/images/entertainment/shows/s/sherlock/Sherlock_v2_showtile.png.2020-06-29T15:28:28+12:00.jpg">
+                </a>
+                </div>
+            </li>
+             <!------box-4------->
+             <li class="item-d">
+                <!--showcase-box---------->
+                <div class="showcase-box">
+                <a href="#">
+                    <img src="https://media.karousell.com/media/photos/products/2020/5/18/naruto_shippuden_hd_video_seas_1589765756_7dfb2b1a_progressive">
+                </a>
+                </div>
+            </li>
+             <!------box-5------->
+             <li class="item-e">
+                <!--showcase-box---------->
+                <div class="showcase-box">
+                <a href="#">
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/1656/421656-h">
+                </a>
+                </div>
+            </li>
+          </ul>
+           
+    </section>
+    <!--latest-movies---------->
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+        <!----slider-------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!---slide-box-1-------->
+            <li class="item-a">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://lh3.googleusercontent.com/proxy/DC4kL5vkkM8G5mb-aMcUPe0ScMH7olGbWx-_Y6CVvvZeblNw0H6FAyhVrqtM54UhlASTBorySobZGAwysKdzStMfW8VQJXwhgfFBG7YGKDdt7vAUaUPiN61k_kHLflRoZaNdwvg11R0dJgcEmg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Wonder Woman 1984</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-2-------->
+            <li class="item-b">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>John Wick</strong>
+                        <p>Action, Thriller</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-3-------->
+            <li class="item-c">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://desicinemas.tv/wp-content/uploads/2020/12/unpaused-9815-poster.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Unpaused</strong>
+                        <p>Drama, Romance</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-4-------->
+            <li class="item-d">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://www.filmibeat.com/ph-big/2019/08/coolie-no-1_156558809600.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Coolie No. 1</strong>
+                        <p>Comedy</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-5-------->
+            <li class="item-e">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://lh3.googleusercontent.com/XDg-bt655am_Q-7X-I0s64Kq8SJKfb7BBTHkUVbFR6-zDNv9J7rW61xZn0BB3SVCJ6gz">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Avengers: Endgame</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-6-------->
+            <li class="item-f">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY268_CR43,0,182,268_AL__QL50.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Deadpool 2</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-7-------->
+            <li class="item-g">
+                <div class="latest-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="latest-b-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="latest-b-text">
+                        <strong>Tenet</strong>
+                        <p>Action, Sci-Fi</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            
+          </ul>
+    </section>
+    <!----Tv Shows---------->
+    <section id="tvshows">
+        <h2 class="tvshows-heading">Tv Shows</h2>
+        <!----slider-------->
+        <ul id="autoWidth3" class="cs-hidden">
+            <!---slide-box-1-------->
+            <li class="item-a">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://images.squarespace-cdn.com/content/v1/52fc05c9e4b08fc45bd99090/1554223868219-XZJDPUVT3GQ05D9SQVTZ/ke17ZwdGBToddI8pDm48kIUEZvCntvRuFrrU4Evvy0AUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJQmFhsX3Qf7n9fxEX3mx2eYSuUygeP_vsIRjwyzaxPrnTckanIPKhP9T2x6rH6kb4/mgot-aftermath-poster.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>Game of Thrones</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-2-------->
+            <li class="item-b">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTGyDDzYHvg_BMX5bESg8Mky8zb5F89Zwkkd2KoAg1gnJqbQxIY">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>Peaky Blinders</strong>
+                        <p>Crime, Drama</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-3-------->
+            <li class="item-c">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://i.pinimg.com/originals/99/6d/d5/996dd5ca927efc9b75c852e2da3fa773.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>The Vampire Diaries</strong>
+                        <p>Drama, Fantasy</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-4-------->
+            <li class="item-d">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZDcxOGI0MDYtNTc5NS00NDUzLWFkOTItNDIxZjI0OTllNTljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>Money Heist</strong>
+                        <p>Action, Crime</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-5-------->
+            <li class="item-e">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTQxMTE0NWQtMzljZi00Y2VmLWI5NWMtMGRmODFjMTRiNmNiXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>College Romance</strong>
+                        <p>Comedy, Drama</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-6-------->
+            <li class="item-f">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://promocodeclub.com/wp-content/uploads/2018/12/mirzapur-poster.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>Mirzapur</strong>
+                        <p>Action, Crime</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-7-------->
+            <li class="item-g">
+                <div class="tvshows-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="tvshows-b-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BODMwNzA3Y2ItM2IzOC00ZmIyLWIyYjAtMzkzYmU4ZmEwOGMyXkEyXkFqcGdeQXVyNDUzNjA4MDA@._V1_.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="tvshows-b-text">
+                        <strong>Hostel Daze</strong>
+                        <p>Comedy, Drama</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            
+          </ul>
+    </section>
+    <!----Anime---------->
+    <section id="anime">
+        <h2 class="anime-heading">Anime</h2>
+        <!----slider-------->
+        <ul id="autoWidth4" class="cs-hidden">
+            <!---slide-box-1-------->
+            <li class="item-a">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://i.pinimg.com/originals/5c/c8/c0/5cc8c0d7f93e394ab5ce9b5a1379ae07.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>Naruto</strong>
+                        <p>Animation, Action</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-2-------->
+            <li class="item-b">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81TmHlRleJL.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>Jujutsu Kaisen</strong>
+                        <p>Animation, Action</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-3-------->
+            <li class="item-c">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://static.displate.com/857x1200/displate/2019-08-27/37a5ec1a53e63349f004ffc20012dfc7_34dfe3e3e3d0e8d23b5b6b3cbe5265fe.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>My Hero Academia</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-4-------->
+            <li class="item-d">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://i.pinimg.com/474x/af/2d/1e/af2d1e0abb27e6afabc49941bee1eeff.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>Haikyuu!!</strong>
+                        <p>Comedy, Drama</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-5-------->
+            <li class="item-e">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://i.pinimg.com/736x/76/8f/f2/768ff2a56abdb82f4e69b02e32e32bed.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>One Piece</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-6-------->
+            <li class="item-f">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://cdn.shopify.com/s/files/1/1222/3190/products/One_Puch_Man_Saitman_Poster_In_India_By_Silly_Punter.jpg?v=1473234817">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>One Punch Man</strong>
+                        <p>Action</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <!---slide-box-7-------->
+            <li class="item-g">
+                <div class="anime-box">
+                    <a href="#">
+                    <!-----img------>
+                    <div class="anime-b-img">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71KZrBc1BqL._AC_SY741_.jpg">
+                    </div>
+                    <!-----text----->
+                    <div class="anime-b-text">
+                        <strong>Boruto</strong>
+                        <p>Action, Adventure</p>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            
+          </ul>
+    </section>
+    <!--Contact-btn------------------>
+	<section id="contact-btn">
+        <!--heading-------------->
+        <h1 class="c-b-heading">If You Have Any Doubts In Your Mind ?</h1>
+        <!--btn-------->
+        <a href="#contact">
+            <button >Contact Us</button>
+        </a>
+        </section>
+    <!-------About-Us---------->
+    <section id="about-us" class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>Our Team</h1>
+                    <p>Things get easy when we work together</p>
+                </div>
+            </div>
+            <div class="team-items">
+                <div class="item">
+                    <img src="images/about6.jpeg" alt="team" />
+                    <div class="inner">
+                        <div class="info">
+                            <h5>Akshat Chauhan</h5>
+                            <div class="social-links">
+                                <a href="https://instagram.com/mr._.akshat_?igshid=1ipgqgrxto1zf"><span class="fa fa-instagram"></span></a>
+                                <a href=""><span class="fa fa-linkedin"></span></a>
+                                <a href=""><span class="fa fa-github"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/about3.jpeg" alt="team" />
+                    <div class="inner">
+                        <div class="info">
+                            <h5>Adarsh Singh</h5>
+                            <div class="social-links">
+                                <a href="https://instagram.com/adarshgnis?igshid=1nsptfrharsgw"><span class="fa fa-instagram"></span></a>
+                                <a href=""><span class="fa fa-linkedin"></span></a>
+                                <a href="https://github.com/Adarshgnis"><span class="fa fa-github"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/about1.jpeg" alt="team" />
+                    <div class="inner">
+                        <div class="info">
+                            <h5>Pooja Shelke</h5>
+                            <div class="social-links">
+                                <a href="https://instagram.com/spooja88?igshid=1njuhd2mlrujv"><span class="fa fa-instagram"></span></a>
+                                <a href=""><span class="fa fa-linkedin"></span></a>
+                                <a href=""><span class="fa fa-github"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id= "contact" class="timepass">
+    <div class="ghost">
+        <div class="face">
+            <div class="eyes">
+                <span></span><span></span>
+            </div>
+            <div class="mouth"></div>
+        </div>
+
+        <div class="hands">
+            <span></span><span></span>
+        </div>
+
+        <div class="feet">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    </section>
+
+    <!--contact-form------------------->
+	<section id="contact-form">
+        <form>
+        <!--left--------------------------------------->
+        <div class="contact-left">
+        <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+        <!--name-------->
+        <div class="f-name">
+        <font>Name</font>
+        <input type="text" placeholder="Full Name"/>
+        </div>
+        <!--email-------->
+        <div class="f-email">
+        <font >Email</font>
+        <input type="email" placeholder="Example@gmail.com"/>
+        </div>
+        </div>
+        <!--right------------------------------------------->
+        <div class="contact-right">
+        <!--message-------->
+        <div class="message">
+        <font >Message</font>
+        <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+        </div>
+        <!--submit-btn------------>
+        <button>submit</button>
+        </div>
+            
+        </form>
+        </section>
+
+    <!-----footer---------->
+    <footer>
+        <p>AAP</p>
+        <p>Bye!!!</p>
+    </footer>
+    <!----slider-script--------->
+    <script>
+        $(document).ready(function() {
+        $('#autoWidth,#autoWidth2,#autoWidth3,#autoWidth4').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2,#autoWidth3,#autoWidth4').removeClass('cS-hidden');
+                } 
+            });  
+         });
+    </script>
+</body>
+</html>
